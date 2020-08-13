@@ -1,0 +1,15 @@
+#数据库-IW正式环境
+db_sgm_mosdb:
+  host: XXXX
+  username: XXXX
+  password: XXXX
+  port: 1521
+  server_name: XXXX
+
+#邮箱配置
+emil:
+  host: XXXX
+  username: XXXX
+  password: XXXX
+
+
