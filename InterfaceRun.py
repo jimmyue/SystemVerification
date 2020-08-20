@@ -4,7 +4,7 @@
 Created on 2020年8月10日
 @author: yuejing
 '''
-
+import sys
 import ddt
 import time
 import unittest
@@ -95,6 +95,7 @@ def report():
 	if WechatText!='':
 		wechat.send_weixin('上汽通用模块异常',WechatText)	
 		emlsend()
+		sys.exit(1)  #jenkins执行失败
 
 if __name__ == "__main__":
 	report()
